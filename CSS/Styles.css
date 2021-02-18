@@ -665,6 +665,11 @@ a {
   padding: var(--padding-vertical) 2rem;
 }
 
+.block__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 .block__heading {
   margin-top: 0;
 }
@@ -688,10 +693,6 @@ a {
 .block--skewed-left {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-}
-
-.block__header {
-  text-align: center;
 }
 
 /******************************************************************************
